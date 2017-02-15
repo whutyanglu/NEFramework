@@ -37,7 +37,7 @@ HttpResponse::HttpResponse()
 
 HttpResponse::~HttpResponse()
 {
-	int i = 0;
+
 }
 
 int HttpResponse::GetCode()

@@ -1,0 +1,5 @@
+[0215/130820:ERROR:interface_registry.cc(99)] Capability spec prevented service service:content_browser from binding interface: net::interfaces::ProxyResolverFactory
+[0215/130829:ERROR:interface_registry.cc(99)] Capability spec prevented service service:content_browser from binding interface: net::interfaces::ProxyResolverFactory
+[0215/130837:ERROR:interface_registry.cc(99)] Capability spec prevented service service:content_browser from binding interface: net::interfaces::ProxyResolverFactory
+[0215/130845:ERROR:interface_registry.cc(99)] Capability spec prevented service service:content_browser from binding interface: net::interfaces::ProxyResolverFactory
+[0215/130853:ERROR:interface_registry.cc(99)] Capability spec prevented service service:content_browser from binding interface: net::interfaces::ProxyResolverFactory
