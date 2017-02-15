@@ -11,7 +11,7 @@
 ##### 目录:
 1. bin : 演示demo_d.exe
 2. libs :第三方库和框架基础库
-3. toolkits/base : 网易客户端基础框架
+3. toolkits/base : 客户端基础框架
 4. toolkits/duilib : 经优化过的duilib
 5. toolkits/net : libcurl http封装 
 6. shared: cef的duilib control 封装、日志等
