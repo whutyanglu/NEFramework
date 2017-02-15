@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+<VBox bkcolor="green">
+	<!--工具栏-->
+	<VBox name="box_toolbar" height="70" inset="15,0,20,0" bottombordersize="1" bordercolor="splitline_level1">
+		<Control />
+		<HBox height="auto" childpadding="20" >
+			<Button class="btn_global_blue_round" name="btn_clear"  width="100" height="36" text="清空目录"/>
+			<Control />
+			<Button class="btn_global_blue_round" name="btn_upload" width="80"  height="36" text="上传"/>
+			<Button class="btn_global_blue_border" name="btn_delete" width="80"  height="36" text="删除"/>
+			<Control />
+			<HBox width="240" height="36" >
+				<RichEdit name="edt_search" textcolor="font_black" font="31" valign="center" tipvalue="搜索文件" textpadding="14,5,0,0"
+							tipvaluecolor="edit_border_gray" height="36" normalimage="/course/bg_search.png"/>
+				<Button name="btn_search"  float="true" pos="210,10,225,26" bkimage="/course/icon_search.png" cursor="hand" />
+			</HBox>
+			<Option name="opt_list_style" normalimage="/course/icon_edit_kuaiz.png" selectedimage="/course/icon_edit_list.png" 
+				cursor="hand" width="auto" height="auto" padding="0,7,0,0" />
+		</HBox>
+		<Control />
+	</VBox>
+	<HBox>
+		<!--目录-->
+		<VBox name="box_directory" width="350" visible="true" inset="20,20,15,0" rightbordersize="1" bordercolor="splitline_level1" >
+		</VBox>
+		<!--目录节点-->
+		<VBox name="box_node" >
+		</VBox>
+	</HBox>	
+</VBox>
+</Window>

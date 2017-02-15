@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="1200,800" caption="0,0,0,100" showshadow="false">
+<VBox bkcolor="bk_wnd_lightcolor">
+</VBox>
+</Window>

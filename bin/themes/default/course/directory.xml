@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+<VBox >
+	<DirectoryTreeView name="tree_directory" multipleitem="true" itemhotbkcolor="color_directory_item_hot" 
+		vscrollbar="true" visiblefolderbtn="true" visible="true" >
+		<DirectoryTreeNode class="treenode_common" name="directory_root_node" visible="false" text="root" >
+		</DirectoryTreeNode>
+	</DirectoryTreeView>
+	<HBox name="box_empty_directory" visible="false">
+		<Control />
+		<VBox width="auto">
+			<Button name="btn_refer_directory" height="auto" width="auto" cursor="hand"
+				normalimage="/course/btn_syxtsm.png" hotimage="/course/btn_syxtsm_sel.png"  padding="0,40,0,40"  />
+			<Button name="btn_create_directory" height="auto" width="auto" cursor="hand"
+				normalimage="/course/btn_cjkbml.png" hotimage="/course/btn_cjkbml_sel.png" />
+		</VBox>
+		<Control />
+	</HBox>
+</VBox>
+</Window>

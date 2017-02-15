@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+<VBox >
+	<List name="list_course_navigation" itemhotbkcolor="color_course_navigation_item_hot" header="hidden" multiselect="false" >
+		<!--基本信息-->
+		<ListContainerElement class="course_navigation_item" name="item_basic_info" >
+			<VBox>
+				<Control />
+				<HBox height="auto"  >
+					<Control bkimage="/course/icon_list_infor.png" width="auto" height="auto"/>
+					<Label   class="course_navigation_item_label" text="基本信息" />
+					<Control class="course_navigation_item_instruction"/>
+				</HBox>
+				<Control />
+			</VBox>
+		</ListContainerElement>
+		<!--知识点讲解-->
+		<ListContainerElement class="course_navigation_item" name="item_knowledge_points">
+			<VBox>
+				<Control />
+				<HBox height="auto"  >
+					<Control class="course_navigation_item_icon"/>
+					<Label   class="course_navigation_item_label" text="知识点讲解" />
+					<Control class="course_navigation_item_instruction"/>
+				</HBox>
+				<Control />
+			</VBox>
+		</ListContainerElement>
+		<!--配套练习-->
+		<ListContainerElement class="course_navigation_item" name="item_supporting_exercises">
+			<VBox>
+				<Control />
+				<HBox height="auto"  >
+					<Control class="course_navigation_item_icon"/>
+					<Label   class="course_navigation_item_label" text="配套练习" />
+					<Control class="course_navigation_item_instruction"/>
+				</HBox>
+				<Control />
+			</VBox>
+		</ListContainerElement>
+		<!--习题讲解-->
+		<ListContainerElement class="course_navigation_item" name="item_exercises_explain">
+			<VBox>
+				<Control />
+				<HBox height="auto"  >
+					<Control class="course_navigation_item_icon"/>
+					<Label   class="course_navigation_item_label" text="习题讲解" />
+					<Control class="course_navigation_item_instruction"/>
+				</HBox>
+				<Control />
+			</VBox>
+		</ListContainerElement>
+		<!--配套试卷-->
+		<ListContainerElement class="course_navigation_item" name="item_supporting_papers">
+			<VBox>
+				<Control />
+				<HBox height="auto"  >
+					<Control class="course_navigation_item_icon"/>
+					<Label   class="course_navigation_item_label" text="配套试卷" />
+					<Control class="course_navigation_item_instruction"/>
+				</HBox>
+				<Control />
+			</VBox>
+		</ListContainerElement>
+		<!--相关资料-->
+		<ListContainerElement class="course_navigation_item" name="item_revelant_info">
+			<VBox>
+				<Control />
+				<HBox height="auto"  >
+					<Control class="course_navigation_item_icon"/>
+					<Label   class="course_navigation_item_label" text="相关资料" />
+					<Control class="course_navigation_item_instruction"/>
+				</HBox>
+				<Control />
+			</VBox>
+		</ListContainerElement>
+	</List>
+</VBox>
+</Window>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+<VBox bkcolor="color_course_bg">
+	<!--工具栏-->
+	<VBox height="50" inset="20,0,20,0" bkcolor="bk_wnd_lightcolor" bottombordersize="1" bordercolor="splitline_level1" >
+		<Control />
+		<HBox height="auto">
+			<CheckBox class="checkbox_goback" name="btn_title" width="auto" valign="center" font="28"  cursor="hand" padding="0,10,0,0"
+				text="高一物理人民出版社必修" />
+			<Control />
+			<Button class="checkbox_goback"  name="btn_goback"  width="auto" padding="0,10,1,0" />
+			<Button class="checkbox_forward" name="btn_forward" width="auto" padding="0,10,0,0"/>
+			<Control />
+			<Button class="btn_global_blue_round" width="108" height="40" name="btn_record_video" text="录制视频" cursor="hand" font="34" />
+		</HBox>
+		<Control />
+	</VBox>
+	<HBox padding="20,0,20,0">
+		<!--左侧导航栏(先占位)-->
+		<VBox name="course_navigation_bar" padding="0,20,0,0" width="230" >
+		</VBox>
+		<!--右侧详细信息-->
+		<VBox  name="root_box" padding="0,20,0,0" bkcolor="bk_wnd_lightcolor" 
+			bordercolor="splitline_level1" leftbordersize="1" topbordersize="1" rightbordersize="1"  >
+		</VBox>
+	</HBox>
+</VBox>
+</Window>

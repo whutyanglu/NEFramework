@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="330,360" caption="0,0,0,360" showshadow="true" shadowimage="/public/bk/bk_shadow.png" shadowsize="6" shadowcorner="5,5,5,5" >
+<VBox bkcolor="bk_wnd_lightcolor" >
+<!--菜单栏-->
+<VBox height="124" bkimage="login/img_top_bg.jpg">
+	<!--右上角系统按钮-->
+	<HBox height="auto">
+		<Control />
+		<Button class="btn_wnd_white_close" name="btn_close" padding="0,10,10,0" cursor="hand" />
+	</HBox>
+	<!--Logo-->
+	<Control name="ctl_logo" bkimage="login/logo.png" pos="40,26,260,66" float="true" />
+</VBox>
+<!--用户名和密码-->
+<HBox height="auto" >
+<Control />
+<VBox width="280" height="auto">
+	<HBox height="50" bordersize="1" bordercolor="edit_border_gray" inset="15,8,15,8" >
+		<RichEdit name="edt_username" textcolor="font_black" font="31" valign="center" tipvalue="请输入账号" 
+			tipvaluecolor="edit_border_gray" text="138341"/>
+	</HBox>
+	<HBox height="50" leftbordersize="1" rightbordersize="1" bottombordersize="1" bordercolor="edit_border_gray" inset="15,8,15,8">
+		<RichEdit name="edt_password" textcolor="font_black" font="31" valign="center" tipvalue="请输入密码" 
+			tipvaluecolor="edit_border_gray" password="true" text="12345678" />
+	</HBox>
+	<HBox height="auto" padding="0,15,0,25" >
+		<CheckBox name="chk_rember_password" width="auto" height="auto" normalimage="login/checkbox.png" selectedimage="login/checkbox_selected.png" />
+		<Label    text="记住我" padding="6,0,0,0"   font="28" textcolor="login_chk_text" />
+		<Button   name="btn_forget_password" text="忘记密码?" font="28" textcolor="login_chk_text" width="auto" cursor="hand" />
+	</HBox>
+	<!--错误显示区域-->
+	<Label name="txt_error" textcolor="link_red" height="auto" text="错误提示" align="center" padding="0,0,0,5" visible="false" />
+	<!--登录-->
+	<Button name="btn_login"  bkcolor="link_blue" height="44"  textcolor="white" text="登 录" font="34" cursor="hand" align="center" />
+	<Control  height="5"/>
+</VBox>
+<Control />
+</HBox>
+<Control />
+</VBox>
+</Window>

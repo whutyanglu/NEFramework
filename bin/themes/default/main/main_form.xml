@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="1680,1010" caption="0,0,0,40" showshadow="true" bktrans="false" shadowimage="/public/bk/bk_shadow.png" shadowsize="6" shadowcorner="8,8,8,8" sizebox="10,10,10,10">
+<VBox bkcolor="bk_wnd_lightcolor" >
+<!--菜单栏-->
+<HBox height="40" bkcolor="color_caption">
+	<!--Logo-->
+	<Control bkimage="/main/top_logo.png" padding="15,8,0,0" width="auto" height="auto"/>
+	<Control />
+	<!--右上角系统按钮-->
+	<HBox width="auto" padding="10,0,10,0" childpadding="8" height="auto">
+		<Button class="btn_wnd_msyk_min"      name="btn_min"   cursor="hand" />
+		<Button class="btn_wnd_msyk_max"      name="btn_max"   cursor="hand" />
+		<Button class="btn_wnd_msyk_restore"  name="btn_restore"   cursor="hand"  visible="false"/>
+		<Button class="btn_wnd_msyk_close"    name="btn_close" cursor="hand" />
+	</HBox>
+</HBox>
+
+<VBox name="course_box" bkcolor="gray" visible="false" />
+<CefBrowserControl name="cef_browser_homepage" visible="true"/>
+<NDFControl name="ndf_view" visible="true"/>
+
+</VBox>
+</Window>

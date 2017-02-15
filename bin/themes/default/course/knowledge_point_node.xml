@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+<VBox inset="20,18,0,0">
+		<Label name="label_summary" height="auto" width="auto" font="28" textcolor="font_gray" padding="0,0,0,15"
+			   text="当前共有3个微课讲解，3个相关练习，3个相关试卷" />
+		<!--知识点-->
+		<VBox>
+			<!--知识点方块视图-->
+			<VBox name="box_knowledge_points_tile_style" height="140" visible="false" >
+				<CheckBox class="checkbox_blue" name="chk_sel_all" text="全选" height="auto" />
+				<HBox name="box_knowledge_points" hscrollbar="true" height="125" padding="0,12,10,15" />
+			</VBox>
+			<!--知识点列表视图-->
+			<List name="list_knowledge_points" visible="true" vscrollbar="true" >
+				<ListHeader height="auto" padding="0,0,0,15" bkcolor="link_blue" >
+					<ListContainerHeaderItem bkcolor="link_green" >
+						<HBox bkcolor="white">
+							<CheckBox class="checkbox_blue" name="chk_lst_sel_all" font="28"
+								width="auto" height="auto" textcolor="font_black" text="文件名" textpadding="20,0,0,0" />
+							<Control width="470" />
+							<Label class="font_gray_body" text="上传时间" halign="center"  height="auto" />
+							<Control />
+						</HBox>
+					</ListContainerHeaderItem>
+				</ListHeader>
+			</List>
+			<!--空白提示-->
+			<HBox name="box_empty_knowledge_point" height="auto" visible="false">
+				<Control />
+				<Button name="btn_video_upload" width="auto" height="auto" cursor="hand" padding="0,55,20,55" 
+						normalimage="/course/icon_edit_vedio_deafult.png" hotimage="/course/icon_edit_vedio.png" />
+				<VBox width="auto">
+					<Control />
+					<HBox width="auto" height="auto" >
+						<Label  class="font_gray_body" width="auto" height="auto" text="暂无上传微课，" />
+						<Button name="btn_video_upload1" font="28" textcolor="color_btn_global_blue_border" text="去上传" width="auto" height="auto" cursor="hand" />
+						<Label  class="font_gray_body" width="auto" height="auto" text="~" />
+					</HBox>
+					<Control />
+				</VBox>
+				<Control />
+			</HBox>
+		</VBox>
+		<!--相关练习-->
+		<VBox bordercolor="splitline_level1" topbordersize="1">
+			<Label text="相关练习" font="31" textcolor="font_black" padding="0,18,0,15" height="auto" width="auto" />
+			<HBox  name="box_supporting_exercises"  height="125" padding="0,0,10,15" visible="false" />
+			<!--相关练习列表视图-->
+			<List name="list_supporting_exercises" vscrollbar="true" visible="true" header="hidden"/>
+			<!--空白提示-->
+			<HBox name="box_empty_exercise" visible="false" height="auto" >
+				<Control />
+				<Button name="btn_exercise_associate" width="auto" height="auto" cursor="hand" padding="0,55,20,55" 
+						normalimage="/course/icon_edit_exercise_deafult.png" />
+				<VBox width="auto">
+					<Control />
+					<HBox width="auto" height="auto" >
+						<Label  class="font_gray_body" width="auto" height="auto" text="暂无相关习题，" />
+						<Button name="btn_exercise_associate1" font="28" textcolor="color_btn_global_blue_border" text="去关联" 
+							width="auto" height="auto" cursor="hand" />
+						<Label  class="font_gray_body" width="auto" height="auto" text="~" />
+					</HBox>
+					<Control />
+				</VBox>
+				<Control />
+			</HBox>
+		</VBox>
+		<!--相关试卷-->
+		<VBox bordercolor="splitline_level1" topbordersize="1" >
+			<Label text="相关试卷" font="31" textcolor="font_black" padding="0,18,0,15" height="auto" width="auto" />
+			<HBox name="box_supporting_papers" hscrollbar="true" height="125" padding="0,0,10,15" visible="false" />
+			<!--相关练习列表视图-->
+			<List name="list_supporting_papers" vscrollbar="true" visible="true" header="hidden" />
+			<!--空白提示-->
+			<HBox name="box_empty_papers" visible="false" height="auto">
+				<Control />
+				<Button name="btn_papers_associate" width="auto" height="auto" cursor="hand" padding="0,55,20,55" 
+					normalimage="/course/icon_edit_exercise_deafult.png" />
+				<VBox width="auto">
+					<Control />
+					<HBox width="auto" height="auto" >
+						<Label  class="font_gray_body" width="auto" height="auto" text="暂无相关试卷，" />
+						<Button name="btn_papers_associate1" font="28" textcolor="color_btn_global_blue_border" text="去关联" 
+							width="auto" height="auto" cursor="hand" />
+						<Label  class="font_gray_body" width="auto" height="auto" text="~" />
+					</HBox>
+					<Control />
+				</VBox>
+				<Control />
+			</HBox>
+		</VBox>
+</VBox>	
+</Window>

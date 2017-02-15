@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+<ListContainerElement>
+<HBox>
+	<CheckBox class="checkbox_blue" textpadding="0" name="checkbox_select"     padding="0,15,0,0" height="auto" width="auto" />
+	<Control  name="control_icon"   bkimage="/course/icon_edit_vedio_mini.png" padding="10,8,10,0" width="auto" height="auto" />
+	<Label    class="font_black_body" name="label_name" width="470"  valign="center" text="三角函数微课讲解第三章"  />
+	<Label    class="font_black_body" name="label_date" width="auto" valign="center" text="2017-01-12 17:00"  />
+</HBox>	
+</ListContainerElement>
+</Window>

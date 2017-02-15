@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="200,800" showshadow="false">
+<VBox bkcolor="bk_wnd_lightcolor" >
+<TreeView name="tree_test" vscrollbar="true" >
+	<TreeNode class="treenode_common" text="测试1"  >
+		<TreeNode class="treenode_common" text="测试11" >
+			<TreeNode text="测试111" >
+				<TreeNode text="测试1111" >
+					<TreeNode text="测试11111" >
+						<TreeNode text="测试111111" >
+						</TreeNode>
+					</TreeNode>
+				</TreeNode>
+			</TreeNode>
+		</TreeNode>
+	</TreeNode>
+	<TreeNode text="测试2" >
+		<TreeNode text="测试22">
+			<TreeNode text="测试222" >
+			</TreeNode>
+		</TreeNode>
+	</TreeNode>
+	<TreeNode text="测试3" >
+		<TreeNode text="测试33" >
+		</TreeNode>
+	</TreeNode>
+</TreeView>
+</VBox>
+</Window>

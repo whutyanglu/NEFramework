@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+<VBox mousechild="false" padding="0,0,20,0">
+	<!--选中框-->
+	<Control name="control_selected" float="true" width="auto" height="auto" bkimage="/course/icon_checkbox02.png" padding="0,6,6,0"/>
+	<Control />
+	<!--图标-->
+	<HBox height="auto">
+	<Control />
+		<VBox width="auto" height="auto" >
+			<Control />
+			<Control name="ctl_icon" height="auto" width="auto" bkimage="/course/icon_edit_pdf.png"/>
+			<Control />
+		</VBox>
+	<Control />
+	</HBox>
+	<!--名称-->
+	<Label name="label_name" height="auto" textcolor="font_gray" font="28" text="三角函数第一练习" align="center" padding="5,10,5,0" />
+	<Control />
+</VBox>
+</Window>

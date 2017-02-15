@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+<VBox>
+	<Include source="/course/tool_bar.xml"/>
+	<HBox>
+		<VBox name="box_directory" width="350" visible="true" inset="20,20,15,0" rightbordersize="1" bordercolor="splitline_level1">
+		</VBox>
+		<VBox name="box_knowledgepoint_node"/>
+	</HBox>
+</VBox>
+</Window>
