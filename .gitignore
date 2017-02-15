@@ -1,5 +1,6 @@
 #directory
 /tmp/*
+/demon/ipch/*
 
 # Compiled Object files
 *.slo
@@ -16,3 +17,5 @@
 *.mod
 *.smod
 
+#Exe
+*.exe
