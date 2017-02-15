@@ -2,7 +2,7 @@
 
 ##### NEFramework由以下模块构建而成：
 1. nbase基础框架，弱回调、Task机制、线程管理等
-2. 优化过的duilib，控件class、控件自适应属性、窗口管理等
+2. 优化过的duilib，控件class、控件自适应属性、窗口管理、标准string等
 3. cef集成和封装为duilib控件
 4. net模块： libcurl封装
 5. 其它客户端模块
